@@ -1,12 +1,15 @@
 
 import './App.css';
-import ProfileBar from './components/ProfilePage/Data/ProfileBar';
+import Modal from './components/ProfilePage/Data/Modal';
+import Profile from './components/ProfilePage/Data/Profile';
+import Signin from './components/ProfilePage/Data/Signin';
 
 function App() {
   
   return (
     <>
-   <ProfileBar />
+   {/* <Profile/> */}
+   <Signin/>
     </>
   );
 }
